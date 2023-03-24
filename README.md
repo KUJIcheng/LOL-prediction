@@ -1002,7 +1002,7 @@ About the metric to evaluate the model, accuracy is particularly useful when the
 
 
 Let's see the Correlation coefficient distribution on the matrix:
-
+![A cute coefficient matrix](./template/output_25_0.png)
     
 
     
@@ -1091,7 +1091,8 @@ The discriminant variable (Group X and Group Y) we choose is the red side versus
 **Significance**: α = 0.01
 
 **observed accuracy difference** = -0.010684470979782312
-
+LOL-prediction/template/empirical_distribution.png
+![ABC](./template/empirical_distribution.png)
 **p_value** = 0.171
 
 According to the p-value and distribution graph of the empirical difference of accuracy between blue side and red side above, the p-value is close to 0.2. Since the p-value is much higher than our significance level, α = 0.01,  we reject the null hypothesis, which state that the classifier's accuracy is the same for both blue side and red side, and any differences are due to chance. Hence, difference in accuracy between blue side and red side is significant, around 10% chance. Therefore, the Random Forest Classifier seems does not achieve accuracy parity perfectly.
