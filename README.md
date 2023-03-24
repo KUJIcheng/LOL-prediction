@@ -1091,7 +1091,6 @@ The discriminant variable (Group X and Group Y) we choose is the red side versus
 **Significance**: α = 0.01
 
 **observed accuracy difference** = -0.010684470979782312
-LOL-prediction/template/empirical_distribution.png
 ![ABC](./template/empirical_distribution.png)
 **p_value** = 0.171
 
